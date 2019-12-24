@@ -1279,20 +1279,20 @@ xclip
 }
 
 .hoverbutton {
-    background-color: #333333;
     position: absolute;
     color: #ffffff !important;
     top: 70%;
     font-size: 21px;
     z-index: 12;
     left: 0;
+    padding-left: 10px;
     opacity: 0;
-    right: 0;
+    right: 5;
     width: 50px;
     height: 50px;
     line-height: 50px;
-    text-align: center;
-    margin: -20px auto;
+    text-align: left;
+    margin: -10px auto;
 }
 
 .service-widget:hover .hoverbutton {
@@ -1417,7 +1417,6 @@ hr.invis1 {
 }
 
 .filter-button-group{
-	border: 1px solid #e4e4e4;
 	border-radius: 0px;
 	margin: 10px 0px;
 	display: inline-block;
@@ -1528,8 +1527,8 @@ hr.invis1 {
 .post-info{
 	padding: 0px 15px 40px 15px;
 	background: #ffffff;
-	text-align: left;
-	margin-top: 40px;
+	text-align: center;
+	margin-top: 30px;
 }
 
 .post-info p{
@@ -1550,6 +1549,10 @@ hr.invis1 {
 	display: inline-block;
 	text-align: center;
 }
+
+/*------------------------------------------------------------------
+    ORIGIN MEMBERS
+-------------------------------------------------------------------*/
 
 
 /*------------------------------------------------------------------
@@ -2049,7 +2052,6 @@ select.mobile-device {
     background-color: #333333;
     margin-bottom: 30px;
     border: 1px solid #ebebeb;
-    box-sizing: border-box;
     color: #bcbcbc;
     font-size: 16px;
     outline: 0 none;
