@@ -1486,8 +1486,6 @@ hr.invis1 {
 	position: absolute;
 	top: 15px;
 	right: 15px;
-	background: #333333;
-	color: #fff;
 	padding: 10px 15px;
 	text-align: center;
 }
@@ -1522,6 +1520,10 @@ hr.invis1 {
 	transition: all .5s;
 	-webkit-transform: translateY(10px);
 	transform: translateY(10px);
+}
+
+.link-watch{
+    color: aliceblue;
 }
 
 .post-info{
