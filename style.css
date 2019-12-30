@@ -2472,3 +2472,26 @@ select.mobile-device {
     border-color: rgba(255, 255, 255, 0.6);
     color: rgba(255, 255, 255, 0.6);
 }
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 900px) {
+    .filter-button-group{
+        border-radius: 0px;
+        margin: 10px 10px;
+        display: inline-block;
+    }
+    .filter-button-group button{
+        color: #333;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 14px;
+        cursor: pointer;
+        background: red;
+        padding: 12px 40px;
+        border: none;
+        border-radius: 0px;
+    }
+}
